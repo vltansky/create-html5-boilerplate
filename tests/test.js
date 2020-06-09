@@ -1,5 +1,5 @@
 const fs = require("fs-extra");
-const cli = require("../lib/cli"); //test
+const cli = require("../lib/cli"); //test2
 const os = require("os");
 const packageName = "html5-boilerplate";
 const tempDir = os.tmpdir() + `/${packageName}-staging`;

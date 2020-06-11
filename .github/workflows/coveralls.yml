@@ -15,7 +15,11 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12.x]
+        include:
+          - node: 13
+            os: ubuntu-18.04
+            experimental: true
 
     steps:
       - uses: actions/checkout@v2

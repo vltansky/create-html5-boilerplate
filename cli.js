@@ -15,7 +15,7 @@ module.exports = async () => {
   const argv = yargs_parser(process.argv.slice(2), {
     alias: { release: ["r"] },
   });
-  const timer = elapsed.start();
+  const timer = elapsed?.start();
   const version = argv["release"] || "latest";
   const targetDir = path.resolve(argv["_"][0] || "./");
   const spinner = ora(

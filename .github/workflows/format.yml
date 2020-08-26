@@ -1,7 +1,7 @@
 name: Prettier code formatting
 on:
   push:
-    branches: [master, format, format-tests]
+    branches: [master, format]
   pull_request:
     branches: [master, format]
 jobs:

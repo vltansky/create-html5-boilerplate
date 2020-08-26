@@ -1,7 +1,7 @@
 name: Prettier code formatting
 on:
   push:
-    branches: [master, format]
+    branches: [master, format, format-tests]
   pull_request:
     branches: [master, format]
 jobs:
@@ -27,7 +27,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - name: Format
-        run: npm run format
+        run: pretty-quick --staged
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:

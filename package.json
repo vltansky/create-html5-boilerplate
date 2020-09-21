@@ -38,7 +38,7 @@
     "ora": "^5.0.0",
     "pacote": "^11.1.10",
     "prompts": "^2.3.2",
-    "yargs-parser": "^19.0.1"
+    "yargs-parser": "^20.2.0"
   },
   "devDependencies": {
     "jest": "^26.0.1",

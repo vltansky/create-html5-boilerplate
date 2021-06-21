@@ -39,7 +39,7 @@
     "inquirer-autocomplete-prompt": "^1.2.0",
     "ora": "^5.0.0",
     "pacote": "^11.1.10",
-    "yargs-parser": "^20.2.3"
+    "yargs-parser": "^20.2.9"
   },
   "devDependencies": {
     "husky": "^4.3.0",
